@@ -1,4 +1,4 @@
-.cabecalho__menu-hamburgue{
+.cabeçalho__menu-hamburgue{
     width: 24px;
     height: 24px;
     display: inline-block;
@@ -7,3 +7,28 @@
     background-position: center;
 
 }
+.cabeçalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 1em;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.
